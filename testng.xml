@@ -1,0 +1,16 @@
+<suite name="WordpressTests" preserve-order="true">
+    <test name="WordPressTest">
+        <classes>
+            <class name="MainPageTest">
+                <methods>
+                    <include name="all"/>
+                </methods>
+            </class>
+            <class name="LoginTest">
+                <methods>
+                    <include name="all"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
